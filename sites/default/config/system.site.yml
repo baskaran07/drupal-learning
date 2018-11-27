@@ -1,0 +1,14 @@
+uuid: 250f73a9-0967-49e3-bd13-37f12ab07e6c
+name: Development
+mail: tpgit.bas07@gmail.com
+slogan: ''
+page:
+  403: ''
+  404: ''
+  front: /node
+admin_compact_mode: false
+weight_select_max: 100
+langcode: en
+default_langcode: en
+_core:
+  default_config_hash: yXadRE77Va-G6dxhd2kPYapAvbnSvTF6hO4oXiOEynI
