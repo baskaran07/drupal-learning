@@ -1,0 +1,13 @@
+<?php
+
+function demo_js_alter(&$javascript, \Drupal\Core\Asset\AttachedAssetsInterface $assets) {
+  //kint($javascript);
+  $javascript['test.com/test.js'] = array(
+    'group' => -100,
+    'weight' => -23,
+    'type' => 'file',
+    'data' => 'test.com/test.js',
+    'scope' => 'header',
+  );
+  //kint($javascript);exit;
+}
